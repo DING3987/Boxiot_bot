@@ -10,7 +10,7 @@ from linebot.models import (
     MessageEvent, TextMessage, TextSendMessage
 )
 
-line_bot_api = LineBotApi('ZJwBYdB/zL8W3WyJoBEc9IWuHfjhG2cUlz/Rs+bs0FWDtcK6bVCJe6feoAB8bAsop8djREi/8B8RUbf9rn7nvHoPW5C7dL1W3MxDHCICICoPbgT8hIYwKErx0XIDlGoiqwhouhUPYkVOjCDFk7iqAAdB04t89/1O/w1cDnyilFU=')
+line_bot_api = LineBotApi('3nXNkJfqsZGJRJr5W1ysid/76iv3ibHslGQ35wuEjtVTnG3DGPwKg0iGSt2dZdEQp8djREi/8B8RUbf9rn7nvHoPW5C7dL1W3MxDHCICICpzHuwQvMl+oCpwtT9Kse5/oObVOPXrS1JjovkYzpw21gdB04t89/1O/w1cDnyilFU=')
 handler = WebhookHandler('0df3aab4979a1ee97c4e2dd888aaf40e')
 
 app = Flask(__name__)
